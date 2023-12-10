@@ -1,5 +1,5 @@
 .jumbotron {
-  padding-top: 7rem;
+  padding-top: 12rem;
 }
 
 #project {
@@ -7,5 +7,71 @@
 }
 
 section {
-  padding-top: 5rem;
+}
+
+#about {
+  padding-top: 12rem;
+  padding-bottom: 9rem;
+}
+
+footer {
+  background-color: #315098;
+  color: #fff;
+  text-align: center;
+  padding: 35px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Gaya link di footer */
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Gaya hover link di footer */
+footer a:hover {
+  color: #e44d26;
+}
+
+/* Gaya tombol di footer */
+footer button {
+  background-color: #2062dd;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Gaya hover tombol di footer */
+footer button:hover {
+  background-color: #333;
+}
+
+/* Gaya untuk bagian informasi tambahan di footer */
+footer .info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+footer .info div {
+  flex: 1;
+}
+
+footer .info div h4 {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Media Query untuk responsivitas */
+@media only screen and (max-width: 768px) {
+  section {
+    flex-direction: column;
+  }
 }
