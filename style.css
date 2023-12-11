@@ -15,27 +15,25 @@ footer {
   background-color: #315098;
   color: #fff;
   text-align: center;
-  padding: 35px;
+  padding: 20px;
   position: relative;
   bottom: 0;
   width: 100%;
 }
 
-/* Gaya link di footer */
 footer a {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
 }
 
-/* Gaya hover link di footer */
 footer a:hover {
-  color: #e44d26;
+  text-decoration: underline;
+  color: aqua;
 }
 
-/* Gaya tombol di footer */
 footer button {
-  background-color: #2062dd;
+  background-color: #e44d26;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -45,12 +43,10 @@ footer button {
   margin-top: 10px;
 }
 
-/* Gaya hover tombol di footer */
 footer button:hover {
   background-color: #333;
 }
 
-/* Gaya untuk bagian informasi tambahan di footer */
 footer .info {
   display: flex;
   justify-content: space-around;
@@ -66,9 +62,13 @@ footer .info div h4 {
   text-decoration: underline;
 }
 
-/* Media Query untuk responsivitas */
 @media only screen and (max-width: 768px) {
-  section {
+  footer .info {
     flex-direction: column;
+    align-items: center;
+  }
+
+  footer .info div {
+    margin-bottom: 10px;
   }
 }
